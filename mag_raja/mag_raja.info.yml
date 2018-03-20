@@ -1,0 +1,33 @@
+name: Mag Raja
+type: theme
+description: 'Developed by Raja. Thanks to ThemeWagon. <a href="https://themewagon.com/themes/free-responsive-magazine-template" /> Designed by ThemeWagon.com</a>  HTML5, SASS, Fully Responsive.'
+package: Core
+# version: VERSION
+# core: 8.x
+
+libraries:
+  - mag_raja/bootstrap
+  - mag_raja/src
+  - mag_raja/fonts
+  - core/normalize
+  - mag_raja/global-components
+
+regions:
+  header: Header
+  primary_menu: 'Primary Menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
+  footer_first: 'First Bottom'
+  footer_second: 'Second Bottom'
+  footer_third: 'Third Bottom'
+  footer_fourth: 'Fourth Bottom'
+
+# Information added by Drupal.org packaging script on 2017-10-15
+version: '8.x-1.3'
+core: '8.x'
+project: 'Mag_Raja'
+datestamp: 1521167253
